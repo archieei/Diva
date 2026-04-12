@@ -264,7 +264,7 @@ export const botConfig = {
     maximumDuration: 2592000000, 
 
     // Role IDs allowed to host giveaways.
-    allowedRoles: [],
+    allowedRoles: [1492713467247857895],[1411578502586826754],[1411504596966440980],
 
     // Role IDs that bypass giveaway restrictions.
     bypassRoles: [],
@@ -281,7 +281,7 @@ export const botConfig = {
     announcementChannel: null,
 
     // Timezone used to calculate birthday dates.
-    timezone: "UTC",
+    timezone: "GMT+10",
   },
 
   // =========================
@@ -327,10 +327,10 @@ export const botConfig = {
 
     // Minimum time between verification attempts (milliseconds).
     // 5000 = 5 seconds.
-    verificationCooldown: 5000,  
+    verificationCooldown: 50000,  
 
     // Maximum failed attempts allowed inside the time window below.
-    maxVerificationAttempts: 3,   
+    maxVerificationAttempts: 10,   
 
     // Time window for counting attempts (milliseconds).
     // 60000 = 1 minute.
