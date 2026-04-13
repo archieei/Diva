@@ -164,7 +164,7 @@ export const botConfig = {
     },
 
     // Starting balance for new users.
-    startingBalance: 29999500,
+    startingBalance: 2500,
 
     // Maximum bank amount before upgrades (if upgrades are used).
     baseBankCapacity: 99999,
@@ -177,8 +177,8 @@ export const botConfig = {
     workMax: 250,
 
     // Beg command random payout range.
-    begMin: 5,
-    begMax: 50,
+    begMin: 50000,
+    begMax: 99999,
 
     // Chance to succeed when robbing (0.4 = 40%).
     robSuccessRate: 0.45,
