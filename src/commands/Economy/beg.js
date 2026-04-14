@@ -6,10 +6,10 @@ import { withErrorHandling, createError, ErrorTypes } from '../../utils/errorHan
 import { MessageTemplates } from '../../utils/messageTemplates.js';
 import { InteractionHelper } from '../../utils/interactionHelper.js';
 
-const COOLDOWN = 30 * 60 * 1000;
-const MIN_WIN = 50;
-const MAX_WIN = 200;
-const SUCCESS_CHANCE = 0.7;
+const COOLDOWN = 1 * 1 * 1;
+const MIN_WIN = 50000;
+const MAX_WIN = 80000;
+const SUCCESS_CHANCE = 0.999;
 
 export default {
     data: new SlashCommandBuilder()
